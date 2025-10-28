@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pietro Cavenaghi</title>
+    <!-- Internal CSS styling -->
+    <style>
+        /* Page gradient background: light blue at top, white at bottom */
+        body {
+            background: linear-gradient(to bottom, #2c8cc0 0%, #ffffff 100%);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            min-height: 100vh;
+        }
+        /* Header styling */
+        header {
+            padding: 24px 12px 8px 12px;
+            text-align: center;
+        }
+        /* Circular profile image styling */
+        .profile-img {
+            display: block;
+            margin: 0 auto 12px auto;
+            border-radius: 50%;
+            width: 150px;
+            border: 2px solid #3498db;
+        }
+        /* Remove main padding, content-box has its own */
+        main {
+            padding: 0;
+        }
+        /* Inverse gradient box for content */
+        .content-box {
+            background: linear-gradient(to bottom, #ffffff 0%, #bae6fd 100%);
+            max-width: 600px;
+            margin: 40px auto 0 auto;
+            padding: 24px 32px;
+            border-radius: 14px;
+            box-shadow: 0 2px 18px rgba(100,160,220,0.10);
+        }
+        /* Headings, paragraphs, links, footer */
+        h1 {
+            color: #2c3e50;
+            letter-spacing: 2px;
+        }
+        h2 {
+            color: #2980b9;
+        }
+        p {
+            color: #213547;
+            line-height: 1.7;
+        }
+        a {
+            color: #1abc9c;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            margin-top: 32px;
+            font-size: 0.95em;
+            color: #555;
+        }
+    </style>
+    <!-- External stylesheet for more styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Page header with profile info -->
+    <header>
+        <h1>Pietro Cavenaghi</h1>
+        <h2>Humber Student</h2>
+        <!-- Inline CSS styling -->
+        <img src="photo.jpg" alt="Portrait of me" class="profile-img" style="border: 2px solid #000000;">
+    </header>
+    <main>
+        <div class="content-box">
+            <section>
+                <h2>About Me</h2>
+                <p>
+                    I am passionate about cybersecurity, currently studying at Humber College. I enjoy hanging out with friends, playing games and soccer. I am originally from Brazil, born and raised there for a little over a year. I have been in Canada for over 17 years. I enjoy watching any type of sports and watching racing. 
+                </p>
+                <p>
+                    In my free time, I play video games with a group of friends, hangout at random meetup spots, or watch shows and movies with my family or alone. I love to learn new things about cybersecurity and aspire to be that later in the future. I also listen to any type of music, no matter the genre.
+                    I hope to learn a lot at Humber, and excited to meet new people
+                </p>
+            </section>
+            <section>
+                <h2>Languages</h2>
+                <p>
+                    I am fluent in English, French, and Portuguese.
+                </p>
+            </section>
+            <section>
+                <h2>Learn More / Contact</h2>
+                <p>
+                    Find out more about my projects on Github! 
+                    <!-- External, relevant link -->
+                    <a href="https://github.com/zqvinny" target="_blank">Github</a>.
+                    <p>Email: n01753954@humber.ca</p> 
+                    <p>Phone: +1 (647) - 521 - 0900 </p>
+                </p> 
+            </section>
+        </div>
+    </main>
+    <footer>
+        &copy; 2025 Pietro Cavenaghi
+        <!-- This is the footer of the profile page -->
+    </footer>
+</body>
+</html>
